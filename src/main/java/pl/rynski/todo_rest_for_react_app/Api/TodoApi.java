@@ -10,7 +10,7 @@ import pl.rynski.todo_rest_for_react_app.service.TodoService;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://michu-react.herokuapp.com/")
+@CrossOrigin(origins = "http://localhost:4200")
 public class TodoApi {
 
     private TodoService todoService;
